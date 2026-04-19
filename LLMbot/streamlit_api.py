@@ -1,7 +1,7 @@
 import streamlit as st
 
 from Utils.utils import QueryStateForString, LLMOutputOnlyString 
-from LLMbot.chatbot import GraphForHumanInTheLoop
+from chatbot import GraphForHumanInTheLoop
 
 
 # =========================================================

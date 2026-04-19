@@ -237,13 +237,7 @@ class WebSearchTool:
             # Apply additional cleaning to ensure no artifacts remain
             snippet = self._clean_text(snippet)
             
-            # Trim very long snippets to reasonable length while preserving complete sentences
-            if len(snippet) > 800:
-                snippet = snippet[:2000]
-                # Try to cut at sentence boundary
-                last_period = snippet.rfind('.')
-                if last_period > 1500:
-                    snippet = snippet[:last_period+1]
+            
             
             snippet = snippet.strip()
             

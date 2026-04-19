@@ -1,0 +1,3 @@
+.env
+LLMbot/__pycache__/
+LLMbot/Utils/__pycache__/

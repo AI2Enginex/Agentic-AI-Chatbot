@@ -202,5 +202,5 @@ class ConfidenceChecker:
         Replace with a brief note
         """
         if ConfidenceChecker.is_verbose_apology(response):
-            return "⏳ **Searching the web for current information...**"
+            return "Searching the web for current information..."
         return response
